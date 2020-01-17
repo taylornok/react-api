@@ -14,7 +14,7 @@ class App extends Component {
 
     componentDidMount() {
         //API WORKING IN BROWSER
-        fetch('https://authenticjobs.com/api/?api_key=059e938e610e6258eec47173f6899268&method=aj.jobs.search&keywords=php,mysql&perpage=20')
+        fetch('https://authenticjobs.com/api/?api_key=&method=aj.jobs.search&keywords=php,mysql&perpage=20')
             .then(res => res.json())
             .then((data) => {
                 console.log(data)
